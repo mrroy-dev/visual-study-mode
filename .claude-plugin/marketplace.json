@@ -1,0 +1,14 @@
+{
+  "name": "visual-study-mode-marketplace",
+  "description": "Claude Code skills for visual, source-grounded learning.",
+  "owner": {
+    "name": "MrRoy"
+  },
+  "plugins": [
+    {
+      "name": "visual-study-mode",
+      "source": ".",
+      "description": "Learn concepts and research papers through step-by-step explanations, visualizations, and practice."
+    }
+  ]
+}

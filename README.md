@@ -21,7 +21,20 @@ Visual Study Mode helps people learn technical topics and research papers throug
 - `assets/visual-study-mode-icon.png` — square brand icon
 - `assets/visual-study-mode-banner.png` — promotional banner/mockup
 
-## Use with Claude
+## Use with Claude Code
+
+This repository is a Claude Code plugin marketplace containing the `visual-study-mode` plugin.
+
+```sh
+claude plugin marketplace add <owner>/<repo>
+claude plugin install visual-study-mode@visual-study-mode-marketplace
+```
+
+Replace `<owner>/<repo>` with this repository's GitHub owner and name. To install from a local checkout, run `claude plugin marketplace add .` from the repository root, then install the plugin with the command above.
+
+The plugin exposes the skill as `/visual-study-mode:visual-study-mode`.
+
+## Use as a standalone Claude skill
 
 1. Download or clone this repository.
 2. Open the `skills/visual-study-mode/` folder.
