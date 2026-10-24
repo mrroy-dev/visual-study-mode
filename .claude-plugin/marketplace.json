@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "visual-study-mode",
-      "source": ".",
+      "source": "./plugins/visual-study-mode",
       "description": "Learn concepts and research papers through step-by-step explanations, visualizations, and practice."
     }
   ]

@@ -23,14 +23,16 @@ Visual Study Mode helps people learn technical topics and research papers throug
 
 ## Use with Claude Code
 
-This repository is a Claude Code plugin marketplace containing the `visual-study-mode` plugin.
+This repository is a Claude plugin marketplace containing the `visual-study-mode` plugin in `plugins/visual-study-mode/`.
+
+In Claude's Plugins settings, choose **Add marketplace**, enter `mrroy-dev/visual-study-mode` (or this repository's Git URL), and sync. The repository must be pushed to GitHub with the marketplace and plugin manifests before Claude can sync it.
 
 ```sh
-claude plugin marketplace add <owner>/<repo>
+claude plugin marketplace add mrroy-dev/visual-study-mode
 claude plugin install visual-study-mode@visual-study-mode-marketplace
 ```
 
-Replace `<owner>/<repo>` with this repository's GitHub owner and name. To install from a local checkout, run `claude plugin marketplace add .` from the repository root, then install the plugin with the command above.
+To install from a local checkout, run `claude plugin marketplace add .` from the repository root, then install the plugin with the command above.
 
 The plugin exposes the skill as `/visual-study-mode:visual-study-mode`.
 
